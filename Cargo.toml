@@ -14,3 +14,8 @@ bsp_rpi4 = []
 [[bin]]
 name = "kernel"
 path = "src/main.rs"
+
+[dependencies]
+
+[target.'cfg(target_arch = "aarch64")'.dependencies]
+aarch64-cpu = { version = "9.x.x" }
