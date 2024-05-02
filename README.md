@@ -4,6 +4,7 @@
 ## Running
 ### QEMU
 ```
+sudo systemctl start docker.service
 make qemu
 ```
 
