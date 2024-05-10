@@ -1,1 +1,5 @@
-/target
+# Ignore the finalized kernel image
+kernel8.img
+
+# Ignore build files
+target/
