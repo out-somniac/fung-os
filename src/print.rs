@@ -1,6 +1,5 @@
 use crate::console;
 use core::fmt;
-use core::fmt::Write;
 
 #[doc(hidden)]
 pub fn _print(args: fmt::Arguments) {

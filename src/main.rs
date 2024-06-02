@@ -6,6 +6,7 @@ mod console;
 mod cpu;
 mod panic_wait;
 mod print;
+mod synchronization;
 
 // Kernel entry point
 unsafe fn kernel_init() -> ! {
